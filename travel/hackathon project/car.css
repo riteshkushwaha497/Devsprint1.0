@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: poppins;
+   
+    overflow-x: hidden;
+    background-color: white;
+  }
+   
+   
+    
+    
+
+nav{
+    position: fixed;
+
+    margin-top: 1rem;
+    display:flex;
+    align-items: center;
+  
+}
+
+nav a{
+  margin:0 2px;
+}
+.container-fluid{
+ 
+    position: fixed;
+    height:10vh;
+   margin-top: 1rem;
+   background-color: whitesmoke;
+   padding-right: 1rem;
+   padding-left: 1rem;
+   /*background-color: brown;*/
+
+}
+
+#sideicon{
+ margin-left: 5px;
+  
+}
+
+
+#liitem:hover{
+  color:blue;
+  font-size: 1.1rem;
+}
+
+
+
+#logo{
+  font-family:pacifico-regular;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#338190;
+    border:2px solid rgb(132, 132, 247);
+    border-radius: 6px;
+  }
+
+  #loginbtn{
+  
+
+    margin-right: 8px;
+   
+    border-radius: 4px;
+    border: 2px solid #338190;
+    background-color: #338190;
+    padding: 4px;
+  
+    
+  }
+
+  #loginbtn a{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #338190;
+    color:whitesmoke;
+    font-weight: 700;
+    
+    
+  }
+
+  #loginbtn:hover{
+font-size: 1.2rem;
+
+
+   
+  }
+    
+
+  #srchbtn{
+    border-color: #338190;
+    color: #338190;
+    font-weight: 600;
+  }
+
+  #srchbtn:hover{
+    background-color: #338190;
+    color:whitesmoke;
+  }
+
+  #carrentbtn{
+    background-color: #338190;
+    color: white;
+    font-weight: 700;
+  }
+
+  #carrentbtn:hover{
+    font-size: 1.1rem;
+  }
+   
+
+
+
+
+
+
+  .content{
+    font-family: poppins;
+    background-color:#e3f6f5;
+
+  }

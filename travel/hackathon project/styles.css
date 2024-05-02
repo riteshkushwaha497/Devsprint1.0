@@ -1,0 +1,962 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: poppins;
+   
+    overflow-x: hidden;
+    background-color: white;
+  }
+   
+   
+    
+    
+
+nav{
+    position: fixed;
+
+    margin-top: 1rem;
+    display:flex;
+    align-items: center;
+  
+}
+
+nav a{
+  margin:0 2px;
+}
+.container-fluid{
+ 
+    position: fixed;
+    height:10vh;
+   margin-top: 1rem;
+   background-color: whitesmoke;
+   padding-right: 1rem;
+   padding-left: 1rem;
+   /*background-color: brown;*/
+
+}
+
+#sideicon{
+ margin-left: 5px;
+  
+}
+
+
+#liitem:hover{
+  color:blue;
+  font-size: 1.1rem;
+}
+
+
+
+#logo{
+  font-family:pacifico-regular;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color:#338190;
+    border:2px solid rgb(132, 132, 247);
+    border-radius: 6px;
+  }
+
+  #loginbtn{
+  
+
+    margin-right: 8px;
+   
+    border-radius: 4px;
+    border: 2px solid #338190;
+    background-color: #338190;
+    padding: 4px;
+  
+    
+  }
+
+  #loginbtn a{
+    list-style-type: none;
+    text-decoration: none;
+    background-color: #338190;
+    color:whitesmoke;
+    font-weight: 700;
+    
+    
+  }
+
+  #loginbtn:hover{
+font-size: 1.2rem;
+
+
+   
+  }
+    
+
+  #srchbtn{
+    border-color: #338190;
+    color: #338190;
+    font-weight: 600;
+  }
+
+  #srchbtn:hover{
+    background-color: #338190;
+    color:whitesmoke;
+  }
+   
+
+
+
+
+   
+
+  .content{
+    font-family: poppins;
+    background-color:#e3f6f5;
+
+  }
+
+/*BANNER SECTION CSS------------*/
+  .bannersection{
+    /*height:60vh;*/
+    width:100%;
+    height:35rem;
+   
+    background-size:100% 100%;
+    
+  background-image: url("wp13811366-kerala-4k-wallpapers.jpg");
+ 
+  background-repeat:no-repeat;
+  
+
+ 
+
+    margin-top: 2.5rem;
+    
+}
+
+/*------------BOOKING FORM -----*/
+  
+  .booking-form {
+    width: 70vw;
+    margin: 50px auto;
+    padding: 10px;                                              
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+    justify-content: space-between;
+    
+    height:100%;
+   
+    
+    
+  }
+  .selectcontent{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+
+
+
+  
+
+ 
+  .booking-form h2 {
+    text-align: center;
+    margin-bottom: 2.4rem;
+  }
+  .booking-form label {
+    
+    margin-bottom: 5px;
+  }
+  .booking-form input[type="text"],
+  .booking-form select {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+    
+  }
+  
+  #from{
+    margin-left: 1rem;
+  }
+  .booking-form .btn {
+    width: 30%;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-weight: 800;
+  }
+  .booking-form .btn:hover {
+    background-color: darkorange;
+  }
+
+  /*----secondsec----*/
+
+  .secondsec{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:30vh;
+
+  }
+
+  .one{
+   
+    display:flex;
+    justify-content: center;
+
+  }
+
+  .one span{
+    color:#338190;
+    font-weight: 700;
+  }
+
+  .two{
+   
+    display:flex;
+    flex-direction: row;
+    padding-left:10rem;
+    padding-right: 10rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    justify-content: space-between;
+    height:40vh;
+  }
+
+  #trvone{
+    width:50%;
+    height:30rem;
+    padding: 3rem;
+    margin-top: 2rem;
+   
+  }
+
+  #trvtwo{
+   width:50%;
+    height:30rem;
+    border-radius: 2rem;
+    background-image:url("4197712.jpg") ;
+    background-size: 100% 100%;
+  }
+
+  /*TOURS AROUND INDIA-------------*/
+  .toursaroundindia{
+  width:100%;
+  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  margin-top: 8rem;
+  font-family: poppins;
+  font-weight: 600;
+
+  }
+
+  /*TOUR CARDS -----------------------*/
+  .toursindia{
+    width:90vw;
+    /* background-color: #338190; */
+    height:40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+   
+  }
+
+  .tourcard{
+    margin-top: 1rem;
+    border-radius: 12px;
+    width:380px;
+    display:flex;
+    margin: 0 0 8px 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color:black;
+    height:280px;
+    background-color: #338190;
+  }
+
+  #cardone{
+    background-image: url("kedarnath.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+  #cardtwo{
+    background-image: url("julian-yu-_WuPjE-MPHo-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+
+  #cardthree{
+    background-image: url("kerela.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+
+  #cardfour{
+    background-image: url("rimjhim-agrawal-P6I33ztlBzs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+
+  /*------ABROAD TOURS CSS------------------*/
+
+  #cardtone{
+    background-image: url("pexels-kayla-ihrig-47825-3424845.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+  #cardttwo{
+    background-image: url("pexels-alexazabache-3879160.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+
+  #cardtthree{
+    background-image: url("dubai.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+
+  #cardtfour{
+    background-image: url("london.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+  }
+
+  /*SLIDER ONE CSS------------------*/
+  .slider-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 50px auto;
+    overflow: hidden;
+   
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 1s ease;
+  }
+
+  .card-container {
+    flex: 0 0 33.3333%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .message {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+
+ 
+
+
+
+  
+    
+
+
+  /*SLIDERtwoCSS--------------*/
+  .slider-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 10rem auto;
+    overflow: hidden;
+    margin-top:10rem;
+   
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 1s ease;
+  }
+
+  .card-container {
+    flex: 0 0 33.3333%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  
+  }
+
+  .card:hover {
+    box-shadow: 5px 5px 5px 5px grey;
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+
+
+  .message {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  /*---WHYUS CSS---------------*/
+
+  .heading{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: poppins;
+
+  }
+  .whyus{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    padding:4rem 1rem 2rem 2rem;
+    /* background-color: #85ecf1; */
+    height:30vh;
+  }
+
+  .details{
+    width:8rem;
+    height:8rem;
+    background-color:white;
+    border-radius: 15px;
+
+  }
+
+  #one{
+    background-image: url("satisfaction.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+  }
+
+  #two{
+    background-image: url("hassle-free.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+  }
+
+  #three{
+    background-image: url("cashless-payment.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+  }
+
+  #four{
+    background-image: url("badge.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+  }
+
+
+  /*------------CUSTOMER REVIEWS-------------------*/
+  .Customerreview{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: poppins;
+    font-weight: 700;
+    margin-top: 5rem;
+
+
+  }
+  .containerone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: poppins;
+    margin-top: 6rem;
+}
+
+.review_card {
+    width: calc(100% - 40px); /* Adjust card width */
+    max-width: 600px;
+    margin: 20px;
+    font-family: poppins;
+    /* background-color: #cdf4f455; */
+    /* border: 1px solid #58b8d041; */
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+/* Style for the top section of the card */
+.card_top {
+    padding: 20px;
+    /* border-bottom: 1px solid #ddd; */
+}
+
+/* Style for the profile section */
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the profile image */
+.profile_image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Style for the profile name */
+.name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Style for the star rating */
+.like {
+    color: #f6ab3f; /* Adjust star color */
+}
+
+/* Style for the comment section */
+.comment {
+    padding: 20px;
+}
+
+/* Style for the comment text */
+.comment p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+  /* responsiveness css*/
+
+  @media screen and (min-width:560px) and (max-width: 1000px) {
+   #resbanner{
+    width:100%;
+    background-size: 100% 100%;
+    height:15rem;
+
+   background-color: aquamarine;
+   margin-bottom: 0;
+  }
+#respbooking{
+  margin-top: 1rem;
+}
+
+.toursaroundindia{
+  font-size: 1.5rem;
+  margin-top: 3rem;
+
+}
+
+#abroadtourheading{
+  margin-top: 7rem;
+}
+
+.toursindia{
+  display:flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-right: 10rem;
+}
+.tourcard{
+  width:15rem;
+  height:12rem;
+}
+
+.heading{
+  margin-top: 8rem;
+  font-size: 1.5rem;
+}
+
+.whyus{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.details{
+  width:5rem;
+  height: 5rem;
+
+}
+  
+
+}
+
+  @media screen and (min-width:340px) and (max-width:559px){ 
+    /* .bannersection{
+      background-size: 100% 100%;
+      width:100vw;
+      height:15rem;
+    } */
+   .toursindia{
+    display:flex;
+    /* justify-content: center;
+    align-items: center; */
+    padding:0;
+    width:100%;
+    
+
+    
+    flex-wrap: wrap;
+    
+    height:auto;
+    font-size: 1.2rem;
+    margin-right: 5rem;
+    margin-left: 0;
+    /* margin-left: 5rem; */
+   
+  }
+  
+  .tourcard{
+    width:7rem;
+    height:7rem;
+   
+  }
+
+  .heading{
+    font-size: 1.8rem;
+  margin-top: 8rem;
+  }
+
+  .details{
+    width:5rem;
+    height:5rem;
+    margin-bottom: 1rem;
+  }
+
+  .Customerreview{
+    margin-top: 1rem;
+  }
+
+  .footer-column h3{
+    font-size: 1rem;
+  }
+
+  .footer-column .social-icons{
+    display:flex;
+    flex-wrap: wrap;
+ 
+  }
+
+  .social-icons img{
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+
+
+
+
+}
+
+ 
+
+
+
+
+
+
+
+/*FOOTER---------------*/
+
+
+footer {
+  /* background: -webkit-linear-gradient(right, #98c0d1, #85ecf1, #8dc7cd); */
+  color: #0b0b0b;
+  background-color:#338190;
+  padding: 20px;
+  height: 300px; /* Adjust height as needed */
+  width: 100%;
+  bottom: 0;
+   /* Fixed positioning to stick to bottom */
+  text-align: center;
+  margin-top: 40rem;
+
+  left:0;
+  
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-column {
+  width: 25%;
+  padding: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
+  color: #0b0b0b;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: #0b0b0b;
+  margin: 0 10px;
+}
+
+hr {
+  border: 1px solid #fff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-column {
+  width: 25%;
+  padding: 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
+  color: #0b0b0b;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: #0b0b0b;
+  margin: 0 10px;
+}
+
+.social-icons a img {
+  width: 30px; /* Adjust the width as needed */
+  height: auto; /* Automatically adjust the height while maintaining aspect ratio */
+}
+
+
+hr {
+  border: 1px solid #0b0b0b;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*HOTEL CSS----------------*/
+
+.maincontainer{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hotelbookheading{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 8rem;
+}
+.container {
+  width: 50%;
+ 
+  height:40vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  
+  flex-wrap: wrap;
+  
+  padding: 20px;
+
+
+
+   /* Double border with provided color */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(23, 187, 248, 0.5);
+  margin: 50px auto;
+}
+
+#searchButton{
+  height:2.5rem;
+  background-color: #338190;
+  color:white;
+  font-weight: 600;
+border: none;
+width:6rem;
+height:3rem;
+font-size: 1rem;
+font-family: poppins;
+border-radius: 5px;
+}
+
+#searchButton:hover{
+  color:black;
+}
+
+.input-container {
+  position: relative;
+  margin: 5px;
+}
+
+
+.input-container input[type="text"],
+.input-container select {
+  padding: 10px 35px 10px 10px;
+  border: 2px double #17bbf8; /* Double border with provided color */
+  border-radius: 5px;
+  font-size: 16px;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.input-container img.icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; 
+  height:20px;
+} 
+
+.input-container select {
+  -webkit-appearance: none;  
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('arrow-down.png'); 
+  background-repeat: no-repeat;
+  background-position: right 10px center;  
+}
+
+.container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #17bbf8; /* Set background color */
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px; /* Adjust margin */
+}
+
+
+/* *********************************************************************************** */
+
+
+
+
+  
+
+
+
+
+ 
+   
